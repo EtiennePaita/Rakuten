@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item >
+        <shape
+            android:shape="rectangle">
+            <corners android:radius="@dimen/search_bar_radius" />
+            <stroke android:width="@dimen/search_bar_stroke_width" android:color="@color/primaryTextColor" />
+        </shape>
+    </item>
+    <item>
+        <shape
+            android:shape="rectangle">
+            <corners android:radius="@dimen/search_bar_radius" />
+            <solid android:color="@color/light_grey" />
+        </shape>
+    </item>
+</layer-list>

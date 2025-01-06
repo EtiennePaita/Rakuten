@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/product_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/product_img"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/product_img_height"
+        android:layout_weight="1" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:padding="@dimen/product_info_padding">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/product_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textStyle="bold"
+            android:textSize="@dimen/h2_size"
+            android:textColor="@color/primaryTextColor"
+            tools:text="ovijnz, nzon oz, on djinihznjnbczei cijzb ciuznj hibij xhi eijfonv zojcn cozjncoijiuez vuon oi  ioejcnozekn  "/>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/average_note_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:textColor="@color/yellow_star"
+                android:textSize="@dimen/regular_size"
+                android:textStyle="bold"
+                tools:text="4.6/5"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:layout_marginStart="@dimen/text_separator_margin"
+                android:layout_marginEnd="@dimen/text_separator_margin"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="@dimen/regular_size"
+                android:text="@string/horizontal_separator_char"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/nb_reviews_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="@dimen/regular_size"
+                tools:text="58"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:layout_marginStart="5dp"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="@dimen/regular_size"
+                android:text="@string/opinion"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/new_best_price_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:textColor="@color/red"
+                android:textSize="@dimen/h3_size"
+                android:text="@string/price_new"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/new_best_price_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:textStyle="bold"
+                android:textColor="@color/red"
+                android:textSize="@dimen/h1_size"
+                android:layout_marginStart="@dimen/text_separator_margin"
+                tools:text="909 €"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/used_best_price_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="@dimen/h3_size"
+                android:text="@string/price_used"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/used_best_price_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:textStyle="bold"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="@dimen/h1_size"
+                android:layout_marginStart="@dimen/text_separator_margin"
+                tools:text="809,99 €"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">RakutenProto</string>
+    <string name="horizontal_separator_char">|</string>
+
+    <!-- Home -->
+    <string name="search_bar_hint">Rechercher un produit…</string>
+    <string name="search_empty">Aucun produit n\'a été trouvé</string>
+    <string name="opinion">Avis</string>
+    <string name="note">%1$.1f/5</string>
+    <string name="price_new">Neuf dès </string>
+    <string name="price_used">Occasion dès </string>
+
+    <!-- Product Details -->
+    <string name="add_cart">Ajouter au panier</string>
+
+    <!-- Exceptions -->
+    <string name="no_internet_connection_error">Il semble il y avoir un problème avec ta connexion internet.\nRéesayes ultérieurement.</string>
+    <string name="error_400">Une erreur est survenue, contacte-nous si le problème persiste.</string>
+    <string name="error_401">Tu es mal authentifié.\nReconnectes-toi !</string>
+    <string name="error_403">Tu n\'as pas accès à cette ressource</string>
+    <string name="error_404">Tu n\'as pas accès à cette ressource ou celle-ci est introuvable</string>
+    <string name="error_server">Une erreur serveur est survenue, réesayes ultérieurement.</string>
+</resources>
